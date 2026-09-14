@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Discount</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<main>
+    <h1>Product Discount Calculator</h1>
+
+    <form action="display_discount.php" method="post">
+
+        <div class="form-group">
+            <label for="product_name">Product Name:</label>
+            <input type="text" id="product_name" name="product_name"
+                   placeholder="Enter product name">
+        </div>
+
+        <div class="form-group">
+            <label for="list_price">List Price:</label>
+            <input type="text" id="list_price" name="list_price"
+                   placeholder="Enter list price">
+        </div>
+
+        <div class="form-group">
+            <label for="discount_percent">Discount Percent:</label>
+            <input type="text" id="discount_percent" name="discount_percent"
+                   placeholder="Enter discount percent">
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Calculate Discount">
+        </div>
+
+    </form>
+</main>
+
+</body>
+</html>
